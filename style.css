@@ -30,7 +30,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px 0;    
+    margin: 16px 0; 
+    min-width: 600px   
 }
 .logo{
     font-size: 24px;
@@ -50,6 +51,7 @@ nav {
     margin : 130px 0;
     justify-content: center;
     align-items: center;
+    min-width: 500px
 }
 .content-left {
     display: flex;
@@ -90,6 +92,7 @@ button{
   padding: 8px 32px;
   flex-shrink: 0;
   color: #f9faf8;
+  font-weight: 700;
 
 }
 .information-section{
@@ -143,7 +146,50 @@ h2 {
     color: #6D747D;
 }
 
+.quote-section{
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    
+    
+}
+.quote-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    margin: 0 10%;
+    padding: 0 50px;
+    min-width: 500px
+}
+.quote{
+    flex: auto;
+    font-size: 36px;
+    align-self: flex-start;
+}
+
+#quote {
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+#author{
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.author{
+   flex: auto;
+}
+
 .footer{
     padding: 32px 0;
+    
 }
 
