@@ -152,10 +152,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 420px;
-    
-    
+    height: 420px; 
 }
+
 .quote-container{
 
     display: flex;
@@ -175,17 +174,46 @@ h2 {
 
 #quote {
     font-style: italic;
-    font-weight: 200;
+    font-weight: lighter;
     color: #1F2937;
 }
 
 #author{
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 19px;
+    font-weight: bolder;
     color: #1F2937;
 }
 .author{
    flex: auto;
+}
+.cto-section{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+}
+.cto-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 40px 0;
+    gap: 120px;
+    border-radius: 8px;
+}
+#cto {
+    border-width: 2px;
+    border-style: solid;
+}
+.cto-main {
+    font-size: 19px;
+    font-weight: bold;
+}
+.cto-subtext {
+    font-size: 15px;
+    font-weight: 90;
+    color:#e5e7eb;
 }
 
 .footer{
